@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+}
+.webstudio-logo, .webstudio-logo-blue{
+    margin-left: 215px;
+    margin-top: 25px;
+    width: 145px;
+    height: 31px;
+    color: #2196F3;
+    text-decoration: none;
+}
+.webstudio-logo-black {
+    color: black;
+}
+li 
+    {
+        list-style: none;
+        display : inline-block;
+    }
