@@ -15,18 +15,18 @@
   --secondary-bg-color: #2f303a;
 }
 body {
-  font-family: 'roboto', 'Verdana', 'Tahoma', sans-serif;
+  font-family: 'roboto', 'sans-serif';
   background-color: var(--main-bg-color);
   color: var(--title-text-color);
 }
 /* лого компании */
 .text-logo {
+      color: var(--accent-color);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.125;
+  line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
-  text-decoration: none;
+    text-decoration: none;
 }
 .black-color {
   color: var(--title-text-color);
@@ -38,13 +38,13 @@ body {
 /* навигация */
 .list {
     list-style: none;
-      display: inline-block;
+    display: inline-block;
  }
 .navigate a {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.125;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -60,7 +60,7 @@ body {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.125;
+  line-height: 1.7;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -72,11 +72,12 @@ body {
   color: var(--accent-color);
 }
 .button {
+  font-family: 'Roboto';
   color: var(--title-text-color);
   background-color: var(--first-bg-color)
     font-weight: 500;
-  font-size: 16px;
-  line-height: 1.125;
+    font-size: 16px;
+    line-height: 1.87;
   }
 .button:hover {
   color: var(--first-bg-color);
@@ -90,26 +91,74 @@ body {
 .section-galery  h2{  
 font-weight: 700;
 font-size: 18px;
-line-height: 1.125;
+line-height: 2;
 letter-spacing: 0.06em;
 }
 .section-galery p{
   color:var(--primary-text-color);
   font-weight: 400;
 font-size: 16px;
-line-height: 1.125;
+line-height: 1.875;
 letter-spacing: 0.03em;
 }
 /* футер */
 .footer {
       background-color: var(--secondary-bg-color);
-  font-weight: 400;
+      color: var(--white-text-color);
+font-weight: 400;
 font-size: 14px;
-line-height: 1.125;
-color: var(--white-text-color);
 }
 .address{
   font-style: normal;
+  line-height: 1.7;
 }
+/* первая страница */
+.main-section, .main-section > h1{
+       background-color: var(--secondary-bg-color);
+       color: var(--white-text-color);
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-align: center; 
+}
+.section-main button{
+    color:var(--white-text-color);
+    background-color: var(--accent-color);
+      line-height: 1.875;
+  text-decoration: none;
+   }
 
+.section-difference  h3 {
+  color: var(--title-text-color);
+      line-height: 1.14;
+      font-size: 14px;
+      font-weight: 700;
+  text-transform: uppercase;
+}
+.section-difference  p {
+  color: var(--primary-text-color);
+    line-height: 1.73;
+    font-size: 14px;
+   }
+.section-header{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.67;
+}
+.section-team{
+  color:var(--title-text-color);
+  background-color: var(--first-bg-color);
+font-size: 16px;
+line-height: 1.19;
 
+}
+.section-team h3{
+font-weight: 500;
+letter-spacing: 0.03em;
+}
+.section-team p{
+  color:var(--primary-text-color);
+font-weight: 400;
+letter-spacing: 0.03em;
+}
