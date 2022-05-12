@@ -74,8 +74,7 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--first-bg-color)
-  font-style: normal;
-  font-weight: 500;
+    font-weight: 500;
   font-size: 16px;
   line-height: 1.125;
   }
