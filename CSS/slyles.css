@@ -48,13 +48,15 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.navigate a:focus {
-  color: var(--accent-color);
-}
+.navigate a:focus,
 .navigate a:hover {
   color: var(--accent-color);
-  text-decoration: underline;
 }
+
+.navigate .active {
+  color: var(--accent-color);
+}
+
 /* контакты хедер */
 .contact a {
   color: var(--primary-text-color);
@@ -72,7 +74,7 @@ body {
   color: var(--accent-color);
 }
 .button {
-  font-family: "Roboto";
+  font-family: "inherit";
   color: var(--title-text-color);
   background-color: var(--first-bg-color);
   font-weight: 500;
@@ -83,7 +85,6 @@ body {
 .button:hover {
   color: var(--first-bg-color);
   background-color: var(--accent-color);
-  text-decoration: underline;
 }
 .button:focus {
   background-color: var(--accent-color);
@@ -109,21 +110,26 @@ body {
   font-weight: 400;
   font-size: 14px;
 }
+.footer .contact a {
+  font-weight: 400;
+  color: var(--contact-text-color);
+}
 .address {
   font-style: normal;
   line-height: 1.7;
 }
 /* первая страница */
-.section-main,
-.section-main > h1 {
+.section-main {
   background-color: var(--secondary-bg-color);
   color: var(--white-text-color);
   font-size: 44px;
   line-height: 1.36;
+  font-weight: 900;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
 }
+
 .section-main button {
   color: var(--white-text-color);
   background-color: var(--accent-color);
@@ -148,10 +154,12 @@ body {
   font-size: 36px;
   line-height: 1.67;
 }
-.section-team {
+.section-team,
+.section-team h3 {
   color: var(--title-text-color);
   background-color: var(--first-bg-color);
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: center;
