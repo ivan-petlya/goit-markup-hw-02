@@ -22,6 +22,7 @@ body {
 /* лого компании */
 .text-logo {
   color: var(--accent-color);
+  font-family: raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -68,13 +69,12 @@ body {
 }
 .contact a:hover {
   color: var(--accent-color);
-  text-decoration: underline;
 }
 .contact a:focus {
   color: var(--accent-color);
 }
 .button {
-  font-family: "inherit";
+  font-family: inherit;
   color: var(--title-text-color);
   background-color: var(--first-bg-color);
   font-weight: 500;
@@ -98,7 +98,6 @@ body {
 }
 .section-exapmles p {
   color: var(--primary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
@@ -107,12 +106,12 @@ body {
 .footer {
   background-color: var(--secondary-bg-color);
   color: var(--white-text-color);
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
 }
 .footer .contact a {
-  font-weight: 400;
   color: var(--contact-text-color);
+  font-weight: 400;
 }
 .address {
   font-style: normal;
